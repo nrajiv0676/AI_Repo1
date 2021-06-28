@@ -184,7 +184,7 @@ def brainTumorPredictResult():
 
         # Save the file to ./uploads
         basepath = os.path.dirname(__file__)
-        file_path = os.path.join(basepath, 'uploads', secure_filename(f.filename))
+        file_path = os.path.join(basepath, 'models/uploads', secure_filename(f.filename))
         f.save(file_path)
 
         print(file_path)
@@ -277,7 +277,7 @@ def malariaPredictResult():
 
         # Save the file to ./uploads
         basepath = os.path.dirname(__file__)
-        file_path = os.path.join(basepath, 'uploads', secure_filename(f.filename))
+        file_path = os.path.join(basepath, 'models/uploads', secure_filename(f.filename))
         f.save(file_path)
 
         print(file_path)
