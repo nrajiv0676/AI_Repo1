@@ -10,4 +10,4 @@ scipy==1.6.3
 scikit-learn==0.24.2
 bootstrap4==0.1.0
 Keras==2.4.3
-tensorflow>=2.4.1
+tensorflow-cpu>=2.4.1
