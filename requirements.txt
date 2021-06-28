@@ -11,3 +11,5 @@ scikit-learn==0.24.2
 bootstrap4==0.1.0
 Keras==2.4.3
 tensorflow-cpu>=2.4.1
+gevent==21.1.2
+Pillow==8.2.0
